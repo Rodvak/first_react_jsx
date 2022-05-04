@@ -1,19 +1,25 @@
 import './App.css';
-import Container from './components/Container';
+import PersonCard from './components/PersonCard';
 
 function App() {
   return (
     <div className="App">
-        <h1>Hello Dojo!</h1>
-        <h2>Things I need to do:</h2>
-        <ul>
-          <li>Learn React</li>
-          <li>Climb Mt. Everest</li>
-          <li>Run a marathon</li>
-          <li>Feed the dogs</li>
-        </ul>
-        
-        <Container/>
+        <PersonCard firstName = {"Alex"}/>
+        <PersonCard lastName = {"Rodriguez"}/>
+        <PersonCard age = {25}/>
+        <PersonCard hairColor = {"Blonde"}/>
+        <PersonCard firstName2 = {"Bianca"}/>
+        <PersonCard lastName2 = {"Moreno"}/>
+        <PersonCard age2 = {25}/>
+        <PersonCard hairColor2 = {"Black"}/>
+        <PersonCard firstName3 = {"Daniel"}/>
+        <PersonCard lastName3 = {"Vaca"}/>
+        <PersonCard age3 = {25}/>
+        <PersonCard hairColor3 = {"Black"}/>
+        <PersonCard firstName4 = {"Austin"}/>
+        <PersonCard lastName4 = {"Silva"}/>
+        <PersonCard age4 = {25}/>
+        <PersonCard hairColor4 = {"Brown"}/>
     </div>
   );
 }
